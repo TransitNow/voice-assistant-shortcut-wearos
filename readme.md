@@ -12,21 +12,18 @@ Allows TWP3/5 users to bind their Voice Assistant (long-press) shortcut to <a hr
 </td>
 </tr>
 </table>
-- [Watch video for TicWatch Pro 3/5 users](https://youtu.be/lqnD2iWeQBI)
 
-
-## How to setup
-### For TicWatch Pro 3/5 users
-- Install Google Assistant Go 2.8 [download here](https://www.apkmirror.com/apk/google-inc/google-assistant-go/google-assistant-go-2-8-0-release/).
-- Long-press the voice shortcut (crown button for TWP5, bottom button for TWP3)
-  - If you have multiple voice assistants installed (like Alexa), you will be prompted to select one. Select Google Assistant Go. 
-  - Note: I actually prefer to use [Alexa for Wear OS](https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-alexa-for-smart-watches-wear-os/) instead.
+[Watch video for TicWatch Pro 3/5 users](https://youtu.be/lqnD2iWeQBI)
 
 
 ## How it works
-- For TWP3/5 users, you will be presented with an option to bind the long-press voice button to Google Assistant Go (GAG) for a more seamless experience.
+- Long-press the voice shortcut (crown button for TWP5, bottom button for TWP3)
+- If you have multiple voice assistants installed (like Alexa), you will be prompted to select one. Select Google Assistant Go.
 
-## Limitations[useful-adb-commands.md](..%2Fwearos-btn-remap%2Fuseful-adb-commands.md)
+## Alternative voice assistants
+I actually prefer to use [Alexa for Wear OS](https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-alexa-for-smart-watches-wear-os/) instead. It doesn't require this app to be installed. You simply sideload the apk and it works out of the box.
+
+## Limitations
 Assistant Go is a little cumbersome since it was designed for a Phone. Unfortunately, you cannot sideload the official Assistant apk for Wear OS.
 You can run these adb commands to temporarily increase the pixel density to dismiss the blue banner at the bottom of the screen.
 ```
