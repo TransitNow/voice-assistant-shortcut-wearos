@@ -2,29 +2,23 @@
 <table>
 <tr>
 <td>
-
-TODO
+![img.png](img.png)
 </td>
 <td>
-
 Allows TWP3/5 users to bind their Voice Assistant (long-press) shortcut to [Google Assistant Go 2.8](https://www.apkmirror.com/apk/google-inc/google-assistant-go/google-assistant-go-2-8-0-release/)
-
 </td>
 </tr>
 </table>
-
-
 - [Watch video for TicWatch Pro 3/5 users](https://youtu.be/lqnD2iWeQBI)
 
 
-## TLDR
-This app provides Samsung Galaxy Watch 4/5/6 and TicWatch Pro 5/3 users with a quick method to access Google Wallet and a flashlight (in dark scenarios) by using the native double press shortcut or overriding "show recent apps".
-
 ## How to setup
 ### For TicWatch Pro 3/5 users
-- Long-press the voice shortcut (crown button for TWP5, bottom button for TWP3), if you have multiple voice assistants installed (like Alexa), you will be prompted to select one. Select Google Assistant Go. If you don't have Google Assistant Go 2.8 installed, make sure to [side load it](https://www.apkmirror.com/apk/google-inc/google-assistant-go/google-assistant-go-2-8-0-release/).
+- Install Google Assistant Go 2.8 [download here](https://www.apkmirror.com/apk/google-inc/google-assistant-go/google-assistant-go-2-8-0-release/).
+- Long-press the voice shortcut (crown button for TWP5, bottom button for TWP3)
+  - If you have multiple voice assistants installed (like Alexa), you will be prompted to select one. Select Google Assistant Go. 
   - Note: I actually prefer to use [Alexa for Wear OS](https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-alexa-for-smart-watches-wear-os/) instead.
- 
+
 
 ## How it works
 - For TWP3/5 users, you will be presented with an option to bind the long-press voice button to Google Assistant Go (GAG) for a more seamless experience.
@@ -36,12 +30,13 @@ You can run these adb commands to temporarily increase the pixel density to dism
 adb shell wm density 300
 adb shell wm density reset
 ```
-
 ## How to install
-### Wear OS app prerequisites
+### Install this app (voice app shortcut) and Google Assistant Go 2.8
+- Install this apk (see Release page)
 - Install [Google Assistant Go 2.8](https://www.apkmirror.com/apk/google-inc/google-assistant-go/google-assistant-go-2-8-0-release/) for this app to work properly.
 - Enable all permissions. Go to Settings -> Applications -> Google Assistant Go -> Permissions -> Enable all permissions, allow system overlay as well.
 
+## How to install (sideload) the apks?
 ### Option 1: via phone
 - Download the [Wear installer 2](https://www.reddit.com/r/WearOS/comments/u9hf2m/new_app_wear_installer_2_a_free_general_purpose/) app on your phone.
 - Follow their instructions on how to sideload the apk onto your watch.
