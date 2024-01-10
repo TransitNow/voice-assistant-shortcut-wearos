@@ -3,7 +3,8 @@
 <tr>
 <td>
 
-![image](https://github.com/TransitNow/voice-assistant-shortcut-wearos/blob/main/assets/2457368/1407be64-6881-4d59-8651-6ab72e9a6ad0.png?raw=true)
+
+![image](https://github.com/TransitNow/voice-assistant-shortcut-wearos/assets/2457368/ba407c3a-61f5-4606-badf-9494c0db2cbd)
 
 </td>
 <td>
