@@ -2,15 +2,15 @@
 <table>
 <tr>
 <td>
-![image](https://github.com/TransitNow/voice-assistant-shortcut-wearos/assets/2457368/1407be64-6881-4d59-8651-6ab72e9a6ad0)
+
+![image](https://github.com/TransitNow/voice-assistant-shortcut-wearos/blob/main/assets/2457368/1407be64-6881-4d59-8651-6ab72e9a6ad0.png?raw=true)
 
 </td>
 <td>
-Allows TWP3/5 users to bind their Voice Assistant (long-press) shortcut to [Google Assistant Go 2.8](https://www.apkmirror.com/apk/google-inc/google-assistant-go/google-assistant-go-2-8-0-release/)
+Allows TWP3/5 users to bind their Voice Assistant (long-press) shortcut to <a href="https://www.apkmirror.com/apk/google-inc/google-assistant-go/google-assistant-go-2-8-0-release/">Google Assistant Go 2.8</a>
 </td>
 </tr>
 </table>
-
 - [Watch video for TicWatch Pro 3/5 users](https://youtu.be/lqnD2iWeQBI)
 
 
