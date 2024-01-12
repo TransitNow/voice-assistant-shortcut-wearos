@@ -19,16 +19,32 @@ Allows TWP3/5 users to bind the native Voice Assistant shortcut to <a href="http
 
 ## Alternative voice assistants
 I actually prefer to use [Alexa for Wear OS](https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-alexa-for-smart-watches-wear-os/) instead. It doesn't require this app to be installed. You simply sideload (install) the apk and it works out of the box.
-It's odd that Alexa for Wear OS is not available on the Play Store.
+It's odd that Alexa for Wear OS is not available on the Play Store.  Unfortunately, you cannot sideload the official Assistant apk for Wear OS (it's not compatible with the TWP3/5).
 
-## Limitations
-Assistant Go is a little cumbersome since it was designed for a Phone. Unfortunately, you cannot sideload the official Assistant apk for Wear OS.
-I haven't been able send sms text, navigate to maps, despite enabling all permissions, but setting reminders, saving notes and etc works.
-You can run these adb commands to temporarily increase the pixel density to dismiss the blue banner at the bottom of the screen.
+## Getting rid of the blue banner
+Assistant Go is a little cumbersome since it was designed for a Phone. You may see a blue banner at the bottom of the screen.
+To get rid off it, you'll need to temporarily increase the pixel density of your watch.
 ```
-adb shell wm density 300
+adb shell wm density 300 (play around with this number)
 adb shell wm density reset
 ```
+
+## Limitations
+### Working
+- Save notes to Keep
+- Set reminders, timers, alarms
+- Calling a contact works
+- Control smart home devices (no routines)
+
+### Known issues
+- If your display turns off quickly (i.e < 15 seconds) and your query to GAG takes longer, the screen will turn off. It's annoying, it seems the app doesn't keep the device screen on.
+- Navigating to a location doesn't work. It opens Google Maps but doesn't navigate to the location.
+- Showing things like hour location, weather can be difficult to see due to limited screen real estate.
+
+### Untested
+- Sending SMS with my 3rd SMS app didn't work, but it may work with Google Messages (official app)
+
+
 ## How to install
 ### Install this app (voice app shortcut) and Google Assistant Go 2.8
 - Install this apk from the [release page](https://github.com/TransitNow/voice-assistant-shortcut-wearos/releases)
@@ -54,6 +70,10 @@ adb shell wm density reset
   - Run `adb devices` should show your watch
 - Run `adb install <path to apk>`
 
+## How to uninstall or re-assign the voice shortcut to another app?
+- If you want to re-assign the native voice shortcut to another app, you will need to uninstall this app. There's no option to easily change the default app for the voice assistant shortcut (at least w/ TWP3).
+- The "Digital assistant app" setting does not work regardless of what you set it to.
+- run `adb uninstall com.jsyntax.customvoicelauncher`
 
 ## Beta Feedback
 We welcome feedback on the beta version to improve the app. Please reach out with your comments and suggestions. 
