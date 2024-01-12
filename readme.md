@@ -18,7 +18,7 @@ Allows TWP3/5 users to bind the native Voice Assistant shortcut to <a href="http
 - If you have multiple voice assistants installed (like Alexa), you will be prompted to select one. Select Google Assistant Go.
 
 ## Alternative voice assistants
-I actually prefer to use [Alexa for Wear OS](https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-alexa-for-smart-watches-wear-os/) instead. It doesn't require this app to be installed. You simply sideload (install) the apk and it works out of the box.
+I actually prefer to use [Alexa for Wear OS](https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-alexa-for-smart-watches-wear-os/) instead. It doesn't require this app to be installed. You simply sideload (install) the apk and it works out of the box. However, Alexa is VERY SLOW to load initially, so I tend to assign Google Assistant Go as my default voice assistant in the end.
 It's odd that Alexa for Wear OS is not available on the Play Store.  Unfortunately, you cannot sideload the official Assistant apk for Wear OS (it's not compatible with the TWP3/5).
 
 ## Getting rid of the blue banner
@@ -32,20 +32,21 @@ adb shell wm density reset
 ## Limitations
 ### Working
 - Save notes to Keep
-- Set reminders, timers, alarms
+- Set reminders, timers, alarms, calendar events
 - Calling a contact works
 - Control smart home devices (no routines)
 
 ### Known issues
-- If your display turns off quickly (i.e < 15 seconds) and your query to GAG takes longer, the screen will turn off. It's annoying, it seems the app doesn't keep the device screen on.
+- If your display turns off quickly (i.e < 15 seconds) and your interaction with Go takes longer, the screen will turn off. It's annoying, it seems the app doesn't keep the device screen on.
+  - A workaround is to increase the screen timeout to 30 seconds or more, to rotate the crown to keep the screen on, or to tap the screen to keep it on.
 - Navigating to a location doesn't work. It opens Google Maps but doesn't navigate to the location.
-- Showing things like hour location, weather can be difficult to see due to limited screen real estate.
+- Showing things like business hours/location, weather can be difficult to see due to limited screen real estate.
 
 ### Untested
 - Sending SMS with my 3rd SMS app didn't work, but it may work with Google Messages (official app)
 
 
-## How to install
+## How to install (sideload) apks
 ### Install this app (voice app shortcut) and Google Assistant Go 2.8
 - Install this apk from the [release page](https://github.com/TransitNow/voice-assistant-shortcut-wearos/releases)
 - Install [Google Assistant Go 2.8](https://www.apkmirror.com/apk/google-inc/google-assistant-go/google-assistant-go-2-8-0-release/) for this app to work properly.
@@ -57,23 +58,12 @@ adb shell wm density reset
 - Follow their instructions on how to sideload the apk onto your watch.
 
 ### Option 2: via computer
-- Install ADB on your PC or Mac. [Instructions](https://www.xda-developers.com/install-adb-windows-macos-linux/)
-- Download the apk on to your computer.
-- Connect your watch to your computer via USB
-  - Enable developer mode on your watch
-      - Tap 'System' -> 'About'.
-      - Tap 'Build number' 5-7 times until you see a message that you are now a developer.
-  - Go to Settings > Developer Options > ADB Debugging
-  - Enable "wireless debugging" and click "pair new device"
-  - First pair your watch using the `adb pair <ip address:port>` command, enter the pairing code displayed on your watch.
-  - In the future, since you have paired your watch to your computer, you only need to run `adb connect <ip address:port>` to connect to your watch.
-  - Run `adb devices` should show your watch
-- Run `adb install <path to apk>`
+See instructions here
 
 ## How to uninstall or re-assign the voice shortcut to another app?
 - If you want to re-assign the native voice shortcut to another app, you will need to uninstall this app. There's no option to easily change the default app for the voice assistant shortcut (at least w/ TWP3).
 - The "Digital assistant app" setting does not work regardless of what you set it to.
-- run `adb uninstall com.jsyntax.customvoicelauncher`
+- Uninstall directly on Wear OS watch Settings -> Apps -> Voice Assistant Launcher -> Uninstall or run `adb uninstall com.jsyntax.customvoicelauncher`
 
 ## Beta Feedback
 We welcome feedback on the beta version to improve the app. Please reach out with your comments and suggestions. 
