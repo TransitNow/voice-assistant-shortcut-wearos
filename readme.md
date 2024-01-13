@@ -2,7 +2,8 @@
 <table>
 <tr>
 <td>
-![image](https://github.com/TransitNow/voice-assistant-shortcut-wearos/assets/2457368/ba407c3a-61f5-4606-badf-9494c0db2cbd)
+  <img src="https://github.com/TransitNow/voice-assistant-shortcut-wearos/assets/2457368/ba407c3a-61f5-4606-badf-9494c0db2cbd" alt="image" width="100"/>
+
 </td>
 <td>
 Allows TWP3/5 users to bind the native Voice Assistant shortcut to <a href="https://www.apkmirror.com/apk/google-inc/google-assistant-go/google-assistant-go-2-8-0-release/">Google Assistant Go 2.8</a>
