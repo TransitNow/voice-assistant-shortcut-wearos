@@ -17,18 +17,22 @@ Allows TWP3/5 users to bind the native Voice Assistant shortcut to <a href="http
 ## How it works
 - Long-press the voice shortcut (crown button for TWP5, bottom button for TWP3)
 - If you have multiple voice assistants installed (like Alexa), you will be prompted to select one. Select this app "Voice assistant launcher"
-  ![image](https://github.com/TransitNow/voice-assistant-shortcut-wearos/assets/2457368/a90e4f28-7ef6-465f-bc02-abab6b8fdad6)
+  <img src="https://github.com/TransitNow/voice-assistant-shortcut-wearos/assets/2457368/a90e4f28-7ef6-465f-bc02-abab6b8fdad6" alt="image" width="150"/>
 
 
 ## Alternative voice assistants
 I would prefer to use [Alexa for Wear OS](https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-alexa-for-smart-watches-wear-os/) instead. It doesn't require this app to be installed and is built for watch form factors. You simply sideload (install) the apk and it works out of the box. Unfortunately, Alexa is VERY SLOW to load initially (at least with the TWP3 hardware), so I tend to assign Google Assistant Go as my default voice assistant in the end, despite its shortcomings with screen size.
 It's odd that Alexa for Wear OS is not available on the Play Store. I believe Wear OS 4 users have access to Wear OS (like GW6).
 
+<img src="https://github.com/TransitNow/voice-assistant-shortcut-wearos/assets/2457368/94b86c13-38ae-4db0-9b6f-e8bbfaf00fd7" alt="image" width="200"/>
+
+
+
 ## Can I install the "official" Google Assistant for Wear OS?
 Unfortunately, you cannot sideload the official Assistant apk for Wear OS (it's not compatible with the TWP3/5). This likely due to minimum Wear OS 4.0 requirement, perhaps licensing restrictions and hardware incompatabilities.
 
 ## Getting rid of the blue banner
-Assistant Go is a little cumbersome since it was designed for a Phone. You may see a blue banner at the bottom of the screen.
+Assistant Go is a little cumbersome since it was designed for a phone. You may see a blue banner at the bottom of the screen.
 To get rid off it, you'll need to temporarily increase the pixel density of your watch.
 ```
 adb shell wm density 300 (play around with this number)
@@ -68,7 +72,10 @@ See instructions [here](https://github.com/TransitNow/flashpay-wearos/blob/main/
 ## How to uninstall or re-assign the voice shortcut to another app?
 - If you want to re-assign the native voice shortcut to another app, you will need to uninstall this app. There's no option to easily change the default app for the voice assistant shortcut (at least w/ TWP3).
 - The "Digital assistant app" setting does not work regardless of what you set it to.
-- Uninstall directly on Wear OS watch Settings -> Apps -> Voice Assistant Launcher -> Uninstall or run `adb uninstall com.jsyntax.customvoicelauncher`
+- Uninstall directly on Wear OS watch Settings -> Apps -> Voice Assistant Launcher -> Uninstall or run `adb uninstall com.jsyntax.customvoicelauncher`.
+<img src="https://github.com/TransitNow/voice-assistant-shortcut-wearos/assets/2457368/6b9b90de-e454-4727-a7a5-d4488fc5a6bb" alt="image" width="300"/>
+
+
 
 ## Beta Feedback
 We welcome feedback on the beta version to improve the app. Please reach out with your comments and suggestions. 
