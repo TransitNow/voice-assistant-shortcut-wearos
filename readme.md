@@ -31,20 +31,19 @@ adb shell wm density reset
 
 ## Limitations
 ### Working
-- Save notes to Keep
-- Set reminders, timers, alarms, calendar events
-- Calling a contact works
-- Control smart home devices (no routines)
+- ✔ Save notes to Keep
+- ✔ Set reminders, timers, alarms, calendar events
+- ✔ Calling a contact works
+- ✔ Control smart home devices (no routines)
 
 ### Known issues
-- If your display turns off quickly (i.e < 15 seconds) and your interaction with Go takes longer, the screen will turn off. It's annoying, it seems the app doesn't keep the device screen on.
+- ⚠ If your display turns off quickly (i.e < 15 seconds) and your interaction with Go takes longer, the screen will turn off. It's annoying, it seems the app doesn't keep the device screen on.
   - A workaround is to increase the screen timeout to 30 seconds or more, to rotate the crown to keep the screen on, or to tap the screen to keep it on.
-- Navigating to a location doesn't work. It opens Google Maps but doesn't navigate to the location.
-- Showing things like business hours/location, weather can be difficult to see due to limited screen real estate.
+- ⚠ Navigating to a location doesn't work. It opens Google Maps but doesn't navigate to the location.
+- ⚠ Showing things like business hours/location, weather can be difficult to see due to limited screen real estate.
 
 ### Untested
-- Sending SMS with my 3rd SMS app didn't work, but it may work with Google Messages (official app)
-
+- ⚠ Sending SMS with my 3rd SMS app didn't work, but it may work with Google Messages (official app)
 
 ## How to install (sideload) apks
 ### Install this app (voice app shortcut) and Google Assistant Go 2.8
@@ -58,7 +57,7 @@ adb shell wm density reset
 - Follow their instructions on how to sideload the apk onto your watch.
 
 ### Option 2: via computer
-See instructions here
+See instructions [here](https://github.com/TransitNow/flashpay-wearos/blob/main/docs/how-to-sideload-apks-with-adb-on-computer.md)
 
 ## How to uninstall or re-assign the voice shortcut to another app?
 - If you want to re-assign the native voice shortcut to another app, you will need to uninstall this app. There's no option to easily change the default app for the voice assistant shortcut (at least w/ TWP3).
