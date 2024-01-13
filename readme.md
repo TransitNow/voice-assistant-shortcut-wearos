@@ -31,7 +31,7 @@ adb shell wm density reset
 
 ## Limitations
 ### ✔  Working
-Save notes to Keep
+- Save notes to Keep
 - Set reminders, timers, alarms, calendar events
 - Calling a contact works
 - Control smart home devices (no routines)
@@ -42,7 +42,7 @@ Save notes to Keep
 - Navigating to a location doesn't work. It opens Google Maps but doesn't navigate to the location.
 - Showing things like business hours/location, weather can be difficult to see due to limited screen real estate.
 
-### ❓ \Untested
+### ❓ Untested
 - Sending SMS with my 3rd SMS app didn't work, but it may work with Google Messages (official app)
 
 ## How to install (sideload) apks
