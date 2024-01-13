@@ -16,11 +16,16 @@ Allows TWP3/5 users to bind the native Voice Assistant shortcut to <a href="http
 
 ## How it works
 - Long-press the voice shortcut (crown button for TWP5, bottom button for TWP3)
-- If you have multiple voice assistants installed (like Alexa), you will be prompted to select one. Select Google Assistant Go.
+- If you have multiple voice assistants installed (like Alexa), you will be prompted to select one. Select this app "Voice assistant launcher"
+  ![image](https://github.com/TransitNow/voice-assistant-shortcut-wearos/assets/2457368/a90e4f28-7ef6-465f-bc02-abab6b8fdad6)
+
 
 ## Alternative voice assistants
-I actually prefer to use [Alexa for Wear OS](https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-alexa-for-smart-watches-wear-os/) instead. It doesn't require this app to be installed. You simply sideload (install) the apk and it works out of the box. However, Alexa is VERY SLOW to load initially, so I tend to assign Google Assistant Go as my default voice assistant in the end.
-It's odd that Alexa for Wear OS is not available on the Play Store.  Unfortunately, you cannot sideload the official Assistant apk for Wear OS (it's not compatible with the TWP3/5).
+I would prefer to use [Alexa for Wear OS](https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-alexa-for-smart-watches-wear-os/) instead. It doesn't require this app to be installed and is built for watch form factors. You simply sideload (install) the apk and it works out of the box. Unfortunately, Alexa is VERY SLOW to load initially (at least with the TWP3 hardware), so I tend to assign Google Assistant Go as my default voice assistant in the end, despite its shortcomings with screen size.
+It's odd that Alexa for Wear OS is not available on the Play Store. I believe Wear OS 4 users have access to Wear OS (like GW6).
+
+## Can I install the "official" Google Assistant for Wear OS?
+Unfortunately, you cannot sideload the official Assistant apk for Wear OS (it's not compatible with the TWP3/5). This likely due to minimum Wear OS 4.0 requirement, perhaps licensing restrictions and hardware incompatabilities.
 
 ## Getting rid of the blue banner
 Assistant Go is a little cumbersome since it was designed for a Phone. You may see a blue banner at the bottom of the screen.
