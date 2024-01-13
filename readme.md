@@ -30,20 +30,20 @@ adb shell wm density reset
 ```
 
 ## Limitations
-### Working
-✔ Save notes to Keep
-✔ Set reminders, timers, alarms, calendar events
-✔ Calling a contact works
-✔ Control smart home devices (no routines)
+### ✔  Working
+Save notes to Keep
+- Set reminders, timers, alarms, calendar events
+- Calling a contact works
+- Control smart home devices (no routines)
 
-### Known issues
-⚠ If your display turns off quickly (i.e < 15 seconds) and your interaction with Go takes longer, the screen will turn off. It's annoying, it seems the app doesn't keep the device screen on.
-  A workaround is to increase the screen timeout to 30 seconds or more, to rotate the crown to keep the screen on, or to tap the screen to keep it on.
-⚠ Navigating to a location doesn't work. It opens Google Maps but doesn't navigate to the location.
-⚠ Showing things like business hours/location, weather can be difficult to see due to limited screen real estate.
+### ⚠ Known issues
+- If your display turns off quickly (i.e < 15 seconds) and your interaction with Go takes longer, the screen will turn off. It's annoying, it seems the app doesn't keep the device screen on.
+  - A workaround is to increase the screen timeout to 30 seconds or more, to rotate the crown to keep the screen on, or to tap the screen to keep it on.
+- Navigating to a location doesn't work. It opens Google Maps but doesn't navigate to the location.
+- Showing things like business hours/location, weather can be difficult to see due to limited screen real estate.
 
-### Untested
-❓ Sending SMS with my 3rd SMS app didn't work, but it may work with Google Messages (official app)
+### ❓ \Untested
+- Sending SMS with my 3rd SMS app didn't work, but it may work with Google Messages (official app)
 
 ## How to install (sideload) apks
 ### Install this app (voice app shortcut) and Google Assistant Go 2.8
