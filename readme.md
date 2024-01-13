@@ -17,7 +17,9 @@ Allows TWP3/5 users to bind the native Voice Assistant shortcut to <a href="http
 ## How it works
 - Long-press the voice shortcut (crown button for TWP5, bottom button for TWP3)
 - If you have multiple voice assistants installed (like Alexa), you will be prompted to select one. Select this app "Voice assistant launcher"
-  <img src="https://github.com/TransitNow/voice-assistant-shortcut-wearos/assets/2457368/a90e4f28-7ef6-465f-bc02-abab6b8fdad6" alt="image" width="150"/>
+  <img src="https://github.com/TransitNow/voice-assistant-shortcut-wearos/assets/2457368/a90e4f28-7ef6-465f-bc02-abab6b8fdad6" alt="image" width="180"/>
+  <img src="https://github.com/TransitNow/voice-assistant-shortcut-wearos/assets/2457368/82727afe-627f-404e-93b8-2585c8c033aa" alt="image" width="150"/>
+
 
 
 ## Alternative voice assistants
